@@ -1,0 +1,46 @@
+[28-Jan-2024 16:12:21 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'techlify_db'@'localhost' (using password: YES) in /home4/priiczte/public_html/techlify/admin/includes/conn.php:2
+Stack trace:
+#0 /home4/priiczte/public_html/techlify/admin/includes/conn.php(2): mysqli->__construct('localhost', 'techlify_db', Object(SensitiveParameterValue), 'priiczte_techli...')
+#1 /home4/priiczte/public_html/techlify/admin/login.php(3): include('/home4/priiczte...')
+#2 {main}
+  thrown in /home4/priiczte/public_html/techlify/admin/includes/conn.php on line 2
+[28-Jan-2024 16:12:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'techlify_db'@'localhost' (using password: YES) in /home4/priiczte/public_html/techlify/admin/includes/conn.php:2
+Stack trace:
+#0 /home4/priiczte/public_html/techlify/admin/includes/conn.php(2): mysqli->__construct('localhost', 'techlify_db', Object(SensitiveParameterValue), 'priiczte_techli...')
+#1 /home4/priiczte/public_html/techlify/admin/login.php(3): include('/home4/priiczte...')
+#2 {main}
+  thrown in /home4/priiczte/public_html/techlify/admin/includes/conn.php on line 2
+[28-Jan-2024 16:12:42 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'techlify_db'@'localhost' (using password: YES) in /home4/priiczte/public_html/techlify/admin/includes/conn.php:2
+Stack trace:
+#0 /home4/priiczte/public_html/techlify/admin/includes/conn.php(2): mysqli->__construct('localhost', 'techlify_db', Object(SensitiveParameterValue), 'priiczte_techli...')
+#1 /home4/priiczte/public_html/techlify/admin/login.php(3): include('/home4/priiczte...')
+#2 {main}
+  thrown in /home4/priiczte/public_html/techlify/admin/includes/conn.php on line 2
+[28-Jan-2024 16:13:02 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'techlify_db'@'localhost' (using password: YES) in /home4/priiczte/public_html/techlify/admin/includes/conn.php:2
+Stack trace:
+#0 /home4/priiczte/public_html/techlify/admin/includes/conn.php(2): mysqli->__construct('localhost', 'techlify_db', Object(SensitiveParameterValue), 'priiczte_techli...')
+#1 /home4/priiczte/public_html/techlify/admin/login.php(3): include('/home4/priiczte...')
+#2 {main}
+  thrown in /home4/priiczte/public_html/techlify/admin/includes/conn.php on line 2
+[28-Jan-2024 16:14:48 America/Chicago] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home4/priiczte/public_html/techlify/tcpdf/tcpdf.php on line 17778
+[28-Jan-2024 16:14:48 America/Chicago] PHP Fatal error:  Uncaught TypeError: chr(): Argument #1 ($codepoint) must be of type int, string given in /home4/priiczte/public_html/techlify/tcpdf/include/tcpdf_fonts.php:1671
+Stack trace:
+#0 /home4/priiczte/public_html/techlify/tcpdf/include/tcpdf_fonts.php(1671): chr('')
+#1 /home4/priiczte/public_html/techlify/tcpdf/include/tcpdf_fonts.php(1803): TCPDF_FONTS::unichr('', true)
+#2 /home4/priiczte/public_html/techlify/tcpdf/include/tcpdf_fonts.php(2095): TCPDF_FONTS::UTF8ArrSubString(Array, 0, 1, true)
+#3 /home4/priiczte/public_html/techlify/tcpdf/tcpdf.php(1960): TCPDF_FONTS::utf8Bidi(Array, '', false, true, NULL)
+#4 /home4/priiczte/public_html/techlify/admin/print.php(46): TCPDF->__construct('P', 'mm', 'A4', true, 'UTF-8', false)
+#5 {main}
+  thrown in /home4/priiczte/public_html/techlify/tcpdf/include/tcpdf_fonts.php on line 1671
+[28-Jan-2024 16:21:26 America/Chicago] PHP Warning:  Undefined array key "admin" in /home4/priiczte/public_html/techlify/admin/includes/session.php on line 9
+[28-Jan-2024 16:21:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/priiczte/public_html/techlify/admin/includes/navbar.php on line 22
+[28-Jan-2024 16:21:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/priiczte/public_html/techlify/admin/includes/navbar.php on line 22
+[28-Jan-2024 16:21:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/priiczte/public_html/techlify/admin/includes/navbar.php on line 30
+[28-Jan-2024 16:21:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/priiczte/public_html/techlify/admin/includes/navbar.php on line 30
+[28-Jan-2024 16:21:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/priiczte/public_html/techlify/admin/includes/navbar.php on line 31
+[28-Jan-2024 16:21:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/priiczte/public_html/techlify/admin/includes/profile_modal.php on line 16
+[28-Jan-2024 16:21:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/priiczte/public_html/techlify/admin/includes/profile_modal.php on line 23
+[28-Jan-2024 16:21:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/priiczte/public_html/techlify/admin/includes/profile_modal.php on line 30
+[28-Jan-2024 16:21:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/priiczte/public_html/techlify/admin/includes/profile_modal.php on line 37
+[28-Jan-2024 16:21:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/priiczte/public_html/techlify/admin/includes/menubar.php on line 10
+[28-Jan-2024 16:21:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/priiczte/public_html/techlify/admin/includes/menubar.php on line 10
